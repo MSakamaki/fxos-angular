@@ -4,3 +4,5 @@ dist
 .sass-cache
 app/scripts/vendor
 app/.idea
+build
+application.zip

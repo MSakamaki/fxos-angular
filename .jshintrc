@@ -18,7 +18,10 @@
   "quotmark": "single",
   "undef": true,
   "unused": true,
-  "white": true,
+  "white": false,
+  "globals": {
+    "angular": false
+  },
   "predef": [
     "define",
     "require",

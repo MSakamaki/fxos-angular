@@ -179,6 +179,8 @@ module.exports = function (grunt) {
             'styles/gaiabb/all.css',
             'styles/gaiabb/**/*.{png,gif,jpg,jpeg,svg}',
             'scripts/**/*.js',
+            'scripts/**/*.html',
+            'views/**/*.html',
             'icons/**/*.{png,jpg,jpeg,svg}',
             'images/**/*.{png,gif,jpg,jpeg,svg}',
             '*.html',

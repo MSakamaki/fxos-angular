@@ -1,14 +1,26 @@
 <!doctype html>
-<html>
+<html ng-app="fxOsApp">
 <head>
-  <title>helloFxos</title>
+  <title>FirefoxOs AngulerApps</title>
   <meta charset="utf-8">
   <link href="/styles/gaiabb/all.css" rel="stylesheet" type="text/css">
   <link href="/styles/main.css" rel="stylesheet" type="text/css">
-  <script defer src="/scripts/main.js"></script>
 </head>
+<fxmenu></fxmenu>
 <body>
-  <h1>helloXFxosFs</h1>
+  <h1>helloFxos</h1>
+  <div class="container" ng-view=""></div>
+
+  <script src="/scripts/vendor/angular/angular.js"></script>
+  <script src="/scripts/vendor/angular-route/angular-route.js"></script>
+
+  <script defer src="/scripts/app.js"></script>
+
+  <script defer src="/scripts/directive/element.js"></script>
+
+  <script defer src="/scripts/controller/main.js"></script>
+  <script defer src="/scripts/controller/main2.js"></script>
 </body>
+<fxfooter></fxfooter>
 </html>
 
