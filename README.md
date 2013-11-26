@@ -1,4 +1,12 @@
-# helloFxos
+
+
+###動かすには以下が必要
+ + [FireFox用LiveReloadプラグイン](https://addons.mozilla.org/ja/firefox/addon/livereload/)
+
+
+#以下本家のもの
+
+### helloFxos
 
 ## Getting started
 
